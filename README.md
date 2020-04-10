@@ -12,7 +12,7 @@ Add the role to the requirements.yml file of Trellis :
 ```yaml
 - name: trellis-redis
   src: marksabbath.trellis_redis
-  version: 0.2.6
+  version: 0.2.7
 ```
 
 Run `ansible-galaxy install -r requirements.yml` to install the new role.<br>
