@@ -8,14 +8,14 @@ It installs and configures Redis and the PECL php-redis extension on your server
 
 Get Started
 ----------------
-Add the role to the requirements.yml file of Trellis :
+Add the role to the galaxy.yml file of Trellis :
 ```yaml
 - name: trellis-redis
   src: marksabbath.trellis_redis
   version: 0.2.6
 ```
 
-Run `ansible-galaxy install -r requirements.yml` to install the new role.<br>
+Run `ansible-galaxy install -r galaxy.yml` to install the new role.<br>
 Then, add the role into both server.yml **and** dev.yml:
 ```yaml
 roles:
